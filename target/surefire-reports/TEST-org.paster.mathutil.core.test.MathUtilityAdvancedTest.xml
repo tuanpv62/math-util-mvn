@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.paster.mathutil.core.test.MathUtilityAdvancedTest" time="0.182" tests="6" errors="1" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\learn\term5\SWT301\test\math-util-mvn\target\test-classes;D:\learn\term5\SWT301\test\math-util-mvn\target\classes;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0-M1\junit-jupiter-5.10.0-M1.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0-M1\junit-jupiter-api-5.10.0-M1.jar;C:\Users\ADMIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0-M1\junit-platform-commons-1.10.0-M1.jar;C:\Users\ADMIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0-M1\junit-jupiter-params-5.10.0-M1.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0-M1\junit-jupiter-engine-5.10.0-M1.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0-M1\junit-platform-engine-1.10.0-M1.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.3.0.jre17-preview\mssql-jdbc-12.3.0.jre17-preview.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire12779481287095322453\surefirebooter-20230615131024684_3.jar C:\Users\ADMIN\AppData\Local\Temp\surefire12779481287095322453 2023-06-15T13-10-24_509-jvmRun1 surefire-20230615131024684_1tmp surefire_0-20230615131024684_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\learn\term5\SWT301\test\math-util-mvn\target\test-classes;D:\learn\term5\SWT301\test\math-util-mvn\target\classes;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0-M1\junit-jupiter-5.10.0-M1.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0-M1\junit-jupiter-api-5.10.0-M1.jar;C:\Users\ADMIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0-M1\junit-platform-commons-1.10.0-M1.jar;C:\Users\ADMIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0-M1\junit-jupiter-params-5.10.0-M1.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0-M1\junit-jupiter-engine-5.10.0-M1.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0-M1\junit-platform-engine-1.10.0-M1.jar;C:\Users\ADMIN\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.3.0.jre17-preview\mssql-jdbc-12.3.0.jre17-preview.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ADMIN"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\learn\term5\SWT301\test\math-util-mvn"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire12779481287095322453\surefirebooter-20230615131024684_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="ADMIN"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-15\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\ADMIN\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMIN\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="D:\learn\term5\SWT301\test\math-util-mvn"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;D:\Software\Notejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-15.0.2\BIN;C:\Program Files\NetBeans 8.2\extide\ant\bin;C:\Program Files\NetBeans-15\netbeans\java\maven\bin;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\ADMIN\AppData\Local\GitHubDesktop\bin;C:\Users\ADMIN\.dotnet\tools;D:\Software\visual_studio_code\Microsoft VS Code\bin;C:\Users\ADMIN\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="testFactorialGivenRightArgumentReturnWell(int, long)" classname="org.paster.mathutil.core.test.MathUtilityAdvancedTest" time="0.028">
+    <error message="No ParameterResolver registered for parameter [int arg0] in method [public void org.paster.mathutil.core.test.MathUtilityAdvancedTest.testFactorialGivenRightArgumentReturnWell(int,long)]." type="org.junit.jupiter.api.extension.ParameterResolutionException"><![CDATA[org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [int arg0] in method [public void org.paster.mathutil.core.test.MathUtilityAdvancedTest.testFactorialGivenRightArgumentReturnWell(int,long)].
+]]></error>
+    <system-err><![CDATA[Jun 15, 2023 1:10:25 PM org.junit.jupiter.engine.discovery.MethodSelectorResolver resolve
+WARNING: Possible configuration error: method [public void org.paster.mathutil.core.test.MathUtilityAdvancedTest.testFactorialGivenRightArgumentReturnWell(int,long)] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor, org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+Jun 15, 2023 1:10:25 PM org.junit.jupiter.engine.discovery.MethodSelectorResolver resolve
+WARNING: Possible configuration error: method [public void org.paster.mathutil.core.test.MathUtilityAdvancedTest.testFactorialGivenRightArgumentReturnWell(int,long)] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor, org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+]]></system-err>
+  </testcase>
+  <testcase name="testFactorialGivenRightArgumentReturnWell(int, long)[1]" classname="org.paster.mathutil.core.test.MathUtilityAdvancedTest" time="0.041"/>
+  <testcase name="testFactorialGivenRightArgumentReturnWell(int, long)[2]" classname="org.paster.mathutil.core.test.MathUtilityAdvancedTest" time="0.001"/>
+  <testcase name="testFactorialGivenRightArgumentReturnWell(int, long)[3]" classname="org.paster.mathutil.core.test.MathUtilityAdvancedTest" time="0.002"/>
+  <testcase name="testFactorialGivenRightArgumentReturnWell(int, long)[4]" classname="org.paster.mathutil.core.test.MathUtilityAdvancedTest" time="0.002"/>
+  <testcase name="testFactorialGivenRightArgumentReturnWell(int, long)[5]" classname="org.paster.mathutil.core.test.MathUtilityAdvancedTest" time="0.008">
+    <failure message="expected: &lt;120&gt; but was: &lt;720&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <120> but was: <720>
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:628)
+	at org.paster.mathutil.core.test.MathUtilityAdvancedTest.testFactorialGivenRightArgumentReturnWell(MathUtilityAdvancedTest.java:34)
+]]></failure>
+  </testcase>
+</testsuite>
